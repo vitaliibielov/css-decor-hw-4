@@ -161,6 +161,8 @@ nav {
 }
 
 .contacts .link {
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
 
   font-weight: 500;
@@ -177,7 +179,6 @@ nav {
   margin-right: 10px;
   fill: currentColor;
 }
-
 
 /* ------------------------- */
 /* HERO SECTION */
@@ -259,6 +260,17 @@ nav {
   margin-left: 30px;
 }
 
+.feature-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bg-color);
+}
+
+
+
 .feature-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -326,10 +338,36 @@ nav {
 
 .team_text {
   color: var(--secondary-text-color);
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-contacts {
+  display: flex;
+  margin: 0 32px;
+}
+
+.tmcont-item {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
+.tmcont-item + .tmcont-item {
+  margin-left: 10px;
+}
+
+.socnet-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
 }
 
 /* ------------------------- */
