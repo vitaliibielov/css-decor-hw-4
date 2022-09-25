@@ -173,6 +173,12 @@ nav {
   color: var(--accent-color);
 }
 
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+
 /* ------------------------- */
 /* HERO SECTION */
 
